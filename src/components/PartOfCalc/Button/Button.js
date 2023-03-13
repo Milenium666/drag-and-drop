@@ -2,9 +2,25 @@ import React from 'react'
 
 import './Button.css'
 
-function Button() {
+function Button(props) {
+    function secClass() {
+        if (props.text === '0') {
+          return 'button button__big'
+        } else {
+          return 'button '+props.secondClass
+        }
+      }
     return(
         <>
+            <section
+                className={`button ${secClass()}`}
+                onClick={(e) => {props.onClick(props)}}>
+        <p
+          className={props.thirdClass}
+        >
+          {props.text}
+        </p>
+      </section>
         </>
     )
 }
