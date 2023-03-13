@@ -7,6 +7,8 @@ import './Canvas.css';
 function Canvas({ board, dragOverHandler, dropCardHandler }) {
     function cardEnterBoard(e) {
         e.target.style.background = '#F0F9FF'
+
+
     }
 
     function cardLeaveBoard(e) {

@@ -202,6 +202,7 @@ function WorkPlace({
 
     function cardEnterBoard(e) {
         workplaceRef.current.style.background = '#F0F9FF'
+
     };
 
     function cardLeaveBoard(e) {
