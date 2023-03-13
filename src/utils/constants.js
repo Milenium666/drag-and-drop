@@ -51,15 +51,16 @@ const arrayButtons = [
     }
   ]
   
-  let goodClassArray = [
+ let goodClassArray = [
     'numbers numbers__work ',
     'display display__work ',
     'operations operations__work ',
     'equal equal__work '
   ]
   
-  let arrayForCheckLastInput = ['/', 'x', '-', '+']
+ let arrayForCheckLastInput = ['/', 'x', '-', '+']
   
+ 
   module.exports.arrayButtons = arrayButtons
   module.exports.goodClassArray = goodClassArray
   module.exports.arrayForCheckLastInput = arrayForCheckLastInput
